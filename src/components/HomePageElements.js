@@ -1,5 +1,5 @@
 import Styled from "styled-components";
-import bg from "../public/images/serv.jpg";
+import bg from "../public/images/contact.jpg";
 
 export const Wrapper = Styled.div`
  background-image : url(${bg});
@@ -24,7 +24,7 @@ export const ButtonWrapper = Styled.div`
 
 `;
 
-export const Button = Styled.a`
+export const Button = Styled.button`
   background:${(props) => (props.primary ? "green" : "white")};
   color:${(props) => (props.primary ? "white" : "green")};
   border:2px solid green;
